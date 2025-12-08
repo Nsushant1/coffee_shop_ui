@@ -1,6 +1,7 @@
-import 'package:coffee_shop_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'package:coffee_shop_app/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -17,7 +18,7 @@ class SplashScreen extends StatelessWidget {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/coffee.png'),
+                  image: AssetImage('assets/images/coffee.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -31,14 +32,17 @@ class SplashScreen extends StatelessWidget {
                 children: [
                   SizedBox(height: 32.h),
 
-                  Text(
-                    'Fall in Love with\nCoffee in Blissful\nDelight!',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 28.sp,
-                      fontWeight: FontWeight.w600,
-                      height: 1.4,
+                  Transform.translate(
+                    offset: Offset(0, -50.h),
+                    child: Text(
+                      'Fall in Love with\nCoffee in Blissful\nDelight!',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 28.sp,
+                        fontWeight: FontWeight.w600,
+                        height: 1.4,
+                      ),
                     ),
                   ),
 
@@ -70,9 +74,8 @@ class SplashScreen extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFFC67C4E),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12.r),
+                          borderRadius: BorderRadius.circular(16.r),
                         ),
-                        elevation: 0,
                       ),
                       child: Text(
                         'Get Started',
