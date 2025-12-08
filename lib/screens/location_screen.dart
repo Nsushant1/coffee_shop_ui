@@ -158,7 +158,7 @@ class LocationScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(width: 4.w),
+
                         Expanded(
                           flex: 3,
                           child: Container(
