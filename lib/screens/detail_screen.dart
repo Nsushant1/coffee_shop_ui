@@ -242,6 +242,7 @@ class DetailScreen extends StatelessWidget {
                           ),
                           SizedBox(width: 20.w),
                           Expanded(
+                            //! Navigate to order screen
                             child: ElevatedButton(
                               onPressed: () {
                                 Navigator.push(

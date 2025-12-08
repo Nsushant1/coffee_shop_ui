@@ -256,6 +256,8 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
+
+//! Navigate to detail screen
   Widget _buildNavItem(BuildContext context, IconData icon, bool isActive) {
     return GestureDetector(
       onTap: () {
@@ -264,6 +266,7 @@ class HomeScreen extends StatelessWidget {
           MaterialPageRoute(builder: (context) => DetailScreen()),
         );
       },
+      //! Method for bottom icons 
       child: Icon(
         icon,
         color: isActive ? const Color(0xFFC67C4E) : const Color(0xFF8D8D8D),

@@ -64,6 +64,8 @@ class SplashScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     height: 50.h,
+
+                    //! Navgate to home screen 
                     child: ElevatedButton(
                       onPressed: () {
                         Navigator.push(

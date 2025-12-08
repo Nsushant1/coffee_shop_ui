@@ -1,3 +1,4 @@
+import 'package:coffee_shop_app/screens/location_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -402,9 +403,14 @@ class OrderScreen extends StatelessWidget {
             Container(
               width: double.infinity,
               padding: EdgeInsets.all(16.w),
-
+              //!navugate to last screeenn
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LocationScreen()),
+                  );
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFFD2876C),
                   padding: EdgeInsets.symmetric(vertical: 16.h),
@@ -429,6 +435,7 @@ class OrderScreen extends StatelessWidget {
     );
   }
 
+  //! method for add order and notes button
   Widget _buildActionButton(IconData icon, String label) {
     return Expanded(
       child: Container(
