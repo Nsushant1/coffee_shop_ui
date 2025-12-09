@@ -64,7 +64,7 @@ class OrderScreen extends StatelessWidget {
                                   height: 40,
                                   decoration: BoxDecoration(
                                     color: Color(0xFFC67C4E),
-                                    borderRadius: BorderRadius.circular(6.h),
+                                    borderRadius: BorderRadius.circular(6.r),
                                   ),
                                   child: Center(
                                     child: Text(
@@ -160,8 +160,9 @@ class OrderScreen extends StatelessWidget {
                               borderRadius: BorderRadius.circular(8.r),
                               child: Image.asset(
                                 'assets/images/coffee2.png',
-                                width: 50.w,
-                                height: 50.w,
+                                width: 50.r,
+                                height: 50.r,
+
                                 fit: BoxFit.cover,
                               ),
                             ),

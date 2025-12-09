@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
       body: Column(
         children: [
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.55,
+            height: 0.55.sh,
             width: double.infinity,
             child: Container(
               decoration: const BoxDecoration(
@@ -65,7 +65,7 @@ class SplashScreen extends StatelessWidget {
                     width: double.infinity,
                     height: 50.h,
 
-                    //! Navgate to home screen 
+                    //! Navgate to home screen
                     child: ElevatedButton(
                       onPressed: () {
                         Navigator.push(

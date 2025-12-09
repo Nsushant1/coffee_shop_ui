@@ -20,7 +20,8 @@ class CoffeeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 200.h,
+      height: 0.25.sh,
+
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16.r),
@@ -117,8 +118,8 @@ class CoffeeCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      width: 32.w,
-                      height: 32.h,
+                      width: 32.r,
+                      height: 32.r,
                       decoration: BoxDecoration(
                         color: const Color(0xFFC67C4E),
                         borderRadius: BorderRadius.circular(10.r),

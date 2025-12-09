@@ -173,7 +173,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             Container(
-              height: 30.h,
+              height: 32.h,
               margin: EdgeInsets.symmetric(horizontal: 20.w),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -211,30 +211,32 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20.h),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: GridView.count(
-                shrinkWrap: true,
-                crossAxisCount: 2,
-                crossAxisSpacing: 16.w,
-                mainAxisSpacing: 20.h,
-                childAspectRatio: 0.68,
-                children: [
-                  CoffeeCard(
-                    name: 'Caffe Mocha',
-                    subtitle: 'Deep Foam',
-                    price: '4.53',
-                    rating: 4.8,
-                    imagePath: 'assets/images/coffee1.png',
-                  ),
-                  CoffeeCard(
-                    name: 'Flat White',
-                    subtitle: 'Espresso',
-                    price: '3.53',
-                    rating: 4.9,
-                    imagePath: 'assets/images/coffee2.png',
-                  ),
-                ],
+            Expanded(
+              child: Padding(
+                padding: EdgeInsets.all(10.w),
+                child: GridView.count(
+                  shrinkWrap: true,
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 16.w,
+                  mainAxisSpacing: 20.h,
+                  childAspectRatio: 0.68,
+                  children: [
+                    CoffeeCard(
+                      name: 'Caffe Mocha',
+                      subtitle: 'Deep Foam',
+                      price: '4.53',
+                      rating: 4.8,
+                      imagePath: 'assets/images/coffee1.png',
+                    ),
+                    CoffeeCard(
+                      name: 'Flat White',
+                      subtitle: 'Espresso',
+                      price: '3.53',
+                      rating: 4.9,
+                      imagePath: 'assets/images/coffee2.png',
+                    ),
+                  ],
+                ),
               ),
             ),
             SizedBox(

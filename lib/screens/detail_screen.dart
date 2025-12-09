@@ -49,7 +49,8 @@ class DetailScreen extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(16.r),
                         child: Container(
-                          height: 200.h,
+                          height: 0.25.sh,
+
                           width: double.infinity,
                           color: Colors.grey[300],
                           child: Image.asset(
@@ -280,7 +281,7 @@ class DetailScreen extends StatelessWidget {
 
   Widget _buildIconButton(IconData icon, Color bgColor) {
     return Container(
-      padding: EdgeInsets.all(8.w),
+      padding: EdgeInsets.all(8.r),
       decoration: BoxDecoration(
         color: bgColor,
         borderRadius: BorderRadius.circular(8.r),

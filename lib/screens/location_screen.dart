@@ -31,8 +31,8 @@ class LocationScreen extends StatelessWidget {
                       Navigator.pop(context);
                     },
                     child: Container(
-                      width: 44.w,
-                      height: 44.h,
+                      width: 44.r,
+                      height: 44.r,
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(12.r),
@@ -53,8 +53,8 @@ class LocationScreen extends StatelessWidget {
                   ),
 
                   Container(
-                    width: 44.w,
-                    height: 44.h,
+                    width: 44.r,
+                    height: 44.r,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12.r),
@@ -255,8 +255,8 @@ class LocationScreen extends StatelessWidget {
                             borderRadius: BorderRadius.circular(12.r),
                             child: Image.asset(
                               'assets/images/me.jpeg',
-                              width: 54.w,
-                              height: 54.h,
+                              width: 54.r,
+                              height: 54.r,
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -289,8 +289,8 @@ class LocationScreen extends StatelessWidget {
                           ),
 
                           Container(
-                            width: 44.w,
-                            height: 44.h,
+                            width: 44.r,
+                            height: 44.r,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12.r),
                               border: Border.all(

@@ -1,16 +1,27 @@
-# coffee_shop_app
 
-A new Flutter project.
+# Flutter Coffee Shop UI
 
-## Getting Started
+A simple, cross-platform Flutter coffee app ui design that is made using flutter_screenutil package .
+## Technologies
 
-This project is a starting point for a Flutter application.
+- Flutter (Dart)
+- flutter_screenutil
 
-A few resources to get you started if this is your first Flutter project:
+## Quickstart / How to clone and run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   git clone https://github.com/Nsushant1/coffee_shop_ui.git
+2. Change directory:
+   cd coffee_shop_ui
+3. Install dependencies:
+   flutter pub get
+4. Run on a connected device or emulator:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project structure (example)
+
+- lib/
+  - main.dart
+  - screens/
+  - widgets/
+- assets/images/
