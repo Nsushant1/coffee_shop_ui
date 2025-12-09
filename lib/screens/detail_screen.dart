@@ -92,18 +92,12 @@ class DetailScreen extends StatelessWidget {
                             children: [
                               _buildIconButton(
                                 Icons.delivery_dining,
-                                Colors.orange[100]!,
+                                Colors.grey,
                               ),
                               SizedBox(width: 8.w),
-                              _buildIconButton(
-                                Icons.coffee,
-                                Colors.orange[100]!,
-                              ),
+                              _buildIconButton(Icons.coffee, Colors.grey),
                               SizedBox(width: 8.w),
-                              _buildIconButton(
-                                Icons.local_cafe,
-                                Colors.orange[100]!,
-                              ),
+                              _buildIconButton(Icons.local_cafe, Colors.grey),
                             ],
                           ),
                         ],
@@ -173,7 +167,7 @@ class DetailScreen extends StatelessWidget {
                                 TextSpan(
                                   text: 'Read More',
                                   style: TextStyle(
-                                    color: Colors.orange[800],
+                                    color: Color(0xFFC67C4E),
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -235,7 +229,7 @@ class DetailScreen extends StatelessWidget {
                                 style: TextStyle(
                                   fontSize: 20.sp,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.orange[800],
+                                  color: Color(0xFFC67C4E),
                                 ),
                               ),
                             ],
@@ -253,7 +247,7 @@ class DetailScreen extends StatelessWidget {
                                 );
                               },
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.orange[300],
+                                backgroundColor: Color(0xFFC67C4E),
                                 padding: EdgeInsets.symmetric(vertical: 16.h),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(12.r),
@@ -291,7 +285,7 @@ class DetailScreen extends StatelessWidget {
         color: bgColor,
         borderRadius: BorderRadius.circular(8.r),
       ),
-      child: Icon(icon, size: 20.sp, color: Colors.orange[800]),
+      child: Icon(icon, size: 20.sp, color: Color(0xFFC67C4E)),
     );
   }
 
@@ -301,10 +295,10 @@ class DetailScreen extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 12.h),
         decoration: BoxDecoration(
-          color: isSelected ? Colors.orange[50] : Colors.white,
+          color: isSelected ? Color(0xFFECAF8A) : Colors.white,
           borderRadius: BorderRadius.circular(12.r),
           border: Border.all(
-            color: isSelected ? Colors.orange[300]! : Colors.grey[300]!,
+            color: isSelected ? Color(0xFFC67C4E) : Colors.grey[300]!,
             width: 1.5,
           ),
         ),
@@ -314,7 +308,7 @@ class DetailScreen extends StatelessWidget {
             style: TextStyle(
               fontSize: 15.sp,
               fontWeight: FontWeight.w600,
-              color: isSelected ? Colors.orange[800] : Colors.black,
+              color: isSelected ? Color(0xFFC67C4E) : Colors.black,
             ),
           ),
         ),

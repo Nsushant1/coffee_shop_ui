@@ -63,7 +63,7 @@ class OrderScreen extends StatelessWidget {
                                 child: Container(
                                   height: 40,
                                   decoration: BoxDecoration(
-                                    color: Color(0xFFD2876C),
+                                    color: Color(0xFFC67C4E),
                                     borderRadius: BorderRadius.circular(6.h),
                                   ),
                                   child: Center(
@@ -246,7 +246,7 @@ class OrderScreen extends StatelessWidget {
                             Icon(
                               Icons.discount_outlined,
                               size: 20.sp,
-                              color: Color(0xFFD2876C),
+                              color: Color(0xFFC67C4E),
                             ),
                             SizedBox(width: 12.w),
                             Expanded(
@@ -352,13 +352,13 @@ class OrderScreen extends StatelessWidget {
                               padding: EdgeInsets.all(6.w),
                               decoration: BoxDecoration(
                                 // ignore: deprecated_member_use
-                                color: Color(0xFFD2876C).withOpacity(0.2),
+                                color: Color(0xFFC67C4E).withOpacity(0.2),
                                 borderRadius: BorderRadius.circular(8.r),
                               ),
                               child: Icon(
                                 Icons.money,
                                 size: 18.sp,
-                                color: Color(0xFFD2876C),
+                                color: Color(0xFFC67C4E),
                               ),
                             ),
                             SizedBox(width: 12.w),
@@ -378,7 +378,7 @@ class OrderScreen extends StatelessWidget {
                                     '\$ 5.53',
                                     style: TextStyle(
                                       fontSize: 12.sp,
-                                      color: Color(0xFFD2876C),
+                                      color: Color(0xFFC67C4E),
                                     ),
                                   ),
                                 ],
@@ -412,7 +412,7 @@ class OrderScreen extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFD2876C),
+                  backgroundColor: Color(0xFFC67C4E),
                   padding: EdgeInsets.symmetric(vertical: 16.h),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12.r),
